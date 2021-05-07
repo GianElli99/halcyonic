@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url(/styles/fonts/YanoneKaffeesatz-ExtraLight.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url(/styles/fonts/YanoneKaffeesatz-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url(/styles/fonts/YanoneKaffeesatz-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url(/styles/fonts/YanoneKaffeesatz-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url(/styles/fonts/YanoneKaffeesatz-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url(/styles/fonts/YanoneKaffeesatz-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+html {
+  min-width: 100%;
+}
+body {
+  /*Flexbox*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*Box-Model*/
+  width: 100%;
+  /*Text*/
+  font-family: 'Yanone Kaffeesatz', sans-serif, serif;
+  font-weight: 300;
+  line-height: 1.85em;
+  color: #474f51;
+  /*Background*/
+  background: #3b4346 url(images/bg01.jpg);
+  /*Everything else*/
+}
+.light-bordered {
+  padding: 10px;
+
+  background: #fff url(images/bg04.png);
+
+  box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 15%);
+}
+.text-shadowed {
+  text-shadow: -1px -1px 1px rgb(0 0 0 / 75%);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 130px;
+  width: min(1200px, 100%);
+}
+#title {
+  /*Flexbox*/
+  /*Box-Model*/
+  /*Text*/
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+  /*Background*/
+  /*Everything else*/
+}
+nav ul {
+  display: flex;
+}
+.nav-item {
+  margin-left: 60px;
+
+  color: #c6c8c8;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+#banner {
+  display: flex;
+
+  width: min(1200px, 100%);
+  padding: 35px 0;
+  border-top: 1px solid #222628;
+
+  color: white;
+
+  box-shadow: inset 0px 1px 0px 0px #3e484a;
+}
+#slogan {
+  margin-bottom: 36px;
+
+  font-size: 2.25rem;
+  font-weight: 200;
+  line-height: 1.25em;
+}
+#main-button {
+  padding: 0 45px;
+  height: 1.9em;
+  border: 1px;
+
+  color: white;
+  font-size: 2.1rem;
+  font-family: inherit;
+  font-weight: 300;
+
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
+  box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 75%),
+    inset 0px 2px 0px 0px rgb(255 192 192 / 50%),
+    inset 0px 0px 0px 2px rgb(255 96 96 / 85%), 3px 3px 3px 1px rgb(0 0 0 / 15%);
+}
+#features {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 45px calc((100vw - 1175px) / 2);
+
+  background: #353d40 url(images/bg02.jpg);
+}
+#features article {
+  width: 25%;
+  padding: 12.5px;
+}
+#features article img {
+  width: inherit;
+  height: auto;
+}
+#features h2 {
+  font-size: 1.4rem;
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+
+  background: #f7f7f7 url(images/bg04.png);
+}
