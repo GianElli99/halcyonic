@@ -158,13 +158,12 @@ nav ul {
 
   box-sizing: border-box;
   width: 100%;
-  padding: 45px calc((100% - 1218px) / 2);
+  padding: 45px calc((100% - 1200px) / 2);
 
   background: #353d40 url(images/bg02.jpg);
 }
 #features article {
-  width: 25%;
-  margin: 0 9px;
+  width: 23.5%;
 }
 #features article img {
   width: -webkit-fill-available;
@@ -216,7 +215,7 @@ main article h3 {
   font-size: 1.4rem;
 }
 #who-we-are img {
-  width: -webkit-fill-available;
+  width: 100%;
 }
 #who-we-are p {
   margin-top: 36px;
@@ -232,22 +231,89 @@ main article h3 {
 }
 #what-people-are-saying li {
   display: flex;
+  align-items: flex-start;
 
   padding: 1em 0;
   border-bottom: 1px solid #e2e6e8;
 }
+#what-people-are-saying img {
+  width: 100%;
+  height: auto;
+  max-width: 60px;
+}
 #what-people-are-saying q {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   font-style: italic;
 }
 #what-people-are-saying p {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .quote-author {
   margin-left: 20px;
 }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 45px calc((100% - 1200px) / 2) 85px calc((100% - 1200px) / 2);
+
+  color: #546b76;
+  text-shadow: 1px 1px 0px rgb(255 255 255 / 50%);
+
+  background: #d4d9dd url(images/bg03.jpg);
+}
+footer h2 {
+  margin-bottom: 22.5px;
+
+  font-size: 1.4rem;
+  color: #212f35;
+}
+#important-links {
+  width: 66%;
+}
+#footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-bottom: 45px;
+
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+#important-links li {
+  width: 21%;
+  padding: 5px 0;
+  border-bottom: solid 1px #b5bec3;
+}
+#important-links a {
+  color: #546b76;
+}
+#additional-info {
+  width: 32%;
+  margin-bottom: 45px;
+}
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding-top: 45px;
+  border-top: solid 1px #b5bec3;
+
+  color: #8d9ca3;
+
+  box-shadow: inset 0px 1px 0px 0px #e0e4e7;
+}
+#copyright a {
+  color: #8d9ca3;
+}
 @media (max-width: 1000px) {
   nav {
     display: none;
