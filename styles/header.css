@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  height: 130px;
+  width: 100%;
+  padding: 0 calc((100% - 1200px) / 2);
+}
+#hamburger-menu {
+  display: none;
+
+  width: 49px;
+  height: 31px;
+  border-radius: 10px;
+  border: 1px;
+
+  box-shadow: inset 0px 1px 0px 0px rgb(255 255 255 / 10%),
+    inset 0px 0px 0px 1px rgb(255 255 255 / 5%),
+    inset 0px -8px 10px 0px rgb(0 0 0 / 15%), 0px 1px 2px 0px rgb(0 0 0 / 25%);
+}
+.hamburguer-line {
+  width: 20px;
+  height: 2px;
+  margin: 1.5px 0;
+
+  background: grey;
+}
+#title {
+  /*Flexbox*/
+  /*Box-Model*/
+  /*Text*/
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+  /*Background*/
+  /*Everything else*/
+}
+nav ul {
+  display: flex;
+}
+.nav-item {
+  margin-left: 60px;
+
+  color: #c6c8c8;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 200;
+}

@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+  background: #3b4346 url(images/bg01.jpg);
+}
+#main-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0 calc((100% - 1200px) / 2);
+
+  background: #f7f7f7 url(images/bg04.png);
+}

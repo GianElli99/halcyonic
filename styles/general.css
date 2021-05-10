@@ -1,0 +1,21 @@
+html {
+  min-width: 100%;
+  font-family: 'Yanone Kaffeesatz', sans-serif, serif;
+  font-weight: 300;
+  line-height: 1.85em;
+  color: #474f51;
+}
+.light-bordered {
+  padding: 10px;
+
+  background: #fff url(images/bg04.png);
+
+  box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 15%);
+}
+.text-shadowed {
+  text-shadow: -1px -1px 1px rgb(0 0 0 / 75%);
+}
+p {
+  font-size: 1.125rem;
+  line-height: 2em;
+}

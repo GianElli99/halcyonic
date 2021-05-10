@@ -1,0 +1,166 @@
+body {
+  /*Flexbox*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*Box-Model*/
+  width: 100%;
+  /*Text*/
+  /*Background*/
+  background: #3b4346 url(images/bg01.jpg);
+  /*Everything else*/
+}
+#banner {
+  display: flex;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 35px calc((100% - 1200px) / 2);
+  border-top: 1px solid #222628;
+
+  color: white;
+
+  box-shadow: inset 0px 1px 0px 0px #3e484a;
+}
+#slogan {
+  margin-bottom: 36px;
+
+  font-size: 2.25rem;
+  font-weight: 200;
+  line-height: 1.25em;
+}
+#main-button {
+  padding: 0 45px;
+  height: 1.9em;
+  border: 1px;
+
+  color: white;
+  font-size: 2.1rem;
+  font-family: inherit;
+  font-weight: 300;
+
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
+  box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 75%),
+    inset 0px 2px 0px 0px rgb(255 192 192 / 50%),
+    inset 0px 0px 0px 2px rgb(255 96 96 / 85%), 3px 3px 3px 1px rgb(0 0 0 / 15%);
+}
+#features {
+  display: flex;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 45px calc((100% - 1200px) / 2);
+
+  background: #353d40 url(images/bg02.jpg);
+}
+#features article {
+  width: 23.5%;
+}
+#features article img {
+  width: -webkit-fill-available;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 27px;
+}
+#features article p {
+  color: #a0a8ab;
+}
+strong {
+  color: #fff;
+}
+#features article a {
+  color: #fff;
+}
+#features h2 {
+  font-size: 1.4rem;
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 45px calc((100% - 1200px) / 2);
+
+  background: #f7f7f7 url(images/bg04.png);
+}
+main article {
+  box-sizing: border-box;
+  width: 32%;
+  padding: 40px 30px;
+
+  background: white;
+  box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
+}
+main article h2 {
+  margin: 0 0 0.25em 0;
+
+  font-size: 2rem;
+  color: #373f42;
+}
+main article h3 {
+  margin-bottom: 36px;
+
+  color: #96a9b5;
+  font-size: 1.4rem;
+}
+#who-we-are img {
+  width: 100%;
+}
+#who-we-are p {
+  margin-top: 36px;
+}
+#what-we-do li {
+  padding: 0.8em 0;
+  border-bottom: 1px solid #e2e6e8;
+
+  font-size: 1.35rem;
+
+  list-style-image: url(images/icon-checkmark.png);
+  list-style-position: inside;
+}
+#what-people-are-saying li {
+  display: flex;
+  align-items: flex-start;
+
+  padding: 1em 0;
+  border-bottom: 1px solid #e2e6e8;
+}
+#what-people-are-saying img {
+  width: 100%;
+  height: auto;
+  max-width: 60px;
+}
+#what-people-are-saying q {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+#what-people-are-saying p {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.quote-author {
+  margin-left: 20px;
+}
+@media (max-width: 1000px) {
+  nav {
+    display: none;
+  }
+  #hamburger-menu {
+    position: fixed;
+    top: 7px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: transparent;
+  }
+  header {
+    justify-content: center;
+  }
+}
