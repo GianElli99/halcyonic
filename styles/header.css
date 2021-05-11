@@ -48,3 +48,44 @@ nav ul {
   font-size: 1.6rem;
   font-weight: 200;
 }
+@media (max-width: 1280px) {
+  #title {
+    font-size: 2.5rem;
+  }
+  header {
+    padding: 0 20px;
+  }
+  .nav-item {
+    font-size: 1.24rem;
+  }
+}
+@media (max-width: 980px) {
+  nav {
+    display: none;
+  }
+  #title {
+    font-size: 1.35rem;
+    font-weight: 500;
+  }
+  #hamburger-menu {
+    top: 7px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: transparent;
+  }
+  header {
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 48px;
+
+    background: url(images/bg01.jpg);
+  }
+  header h1 {
+    padding: 0 calc((100% - 149px) / 2);
+  }
+}
