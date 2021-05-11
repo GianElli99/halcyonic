@@ -17,5 +17,13 @@ html {
 }
 p {
   font-size: 1.125rem;
-  line-height: 2em;
+  line-height: 1.85em;
+}
+.white-box {
+  box-sizing: border-box;
+
+  padding: 40px 30px;
+
+  background: white;
+  box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
 }

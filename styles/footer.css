@@ -21,6 +21,7 @@ footer h2 {
 }
 #important-links {
   width: 66%;
+  line-height: 1.1rem;
 }
 #footer-links {
   display: flex;
@@ -34,7 +35,7 @@ footer h2 {
 }
 #important-links li {
   width: 21%;
-  padding: 5px 0;
+  padding: 12px 0;
   border-bottom: solid 1px #b5bec3;
 }
 #important-links a {
