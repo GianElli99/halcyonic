@@ -1,4 +1,5 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+/*@font-face {
   font-family: 'Yanone Kaffeesatz';
   src: url(/styles/fonts/YanoneKaffeesatz-ExtraLight.ttf);
   font-weight: 200;
@@ -33,4 +34,4 @@
   src: url(/styles/fonts/YanoneKaffeesatz-Bold.ttf);
   font-weight: 700;
   font-style: normal;
-}
+}*/
