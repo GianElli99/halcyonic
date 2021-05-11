@@ -43,20 +43,50 @@ body {
   margin-bottom: 0;
 }
 aside {
+  flex-direction: column;
+
   width: 23.5%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
-aside section {
-  margin-top: 1%;
+aside section:nth-child(2) {
+  margin-top: 20px;
 }
 main {
   width: 49%;
 }
 @media (max-width: 1280px) {
+  #main-content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #main-content-wrapper h2 {
+    font-size: 1.575rem;
+  }
+  #main-content-wrapper h3 {
+    font-size: 1.24rem;
+  }
 }
 @media (max-width: 980px) {
+  #main-content-wrapper {
+    flex-direction: column;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  aside,
+  main {
+    width: 100%;
+  }
+  main {
+    order: -1;
+  }
+  aside section {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 736px) {
+  p {
+    font-size: 1.08rem;
+    line-height: 1.4rem;
+  }
 }
