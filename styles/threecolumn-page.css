@@ -89,4 +89,10 @@ main {
     font-size: 1.08rem;
     line-height: 1.4rem;
   }
+  #main-content-wrapper h2 {
+    font-size: 1.35rem;
+  }
+  #main-content-wrapper h3 {
+    font-size: 1.08rem;
+  }
 }

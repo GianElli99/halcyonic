@@ -13,8 +13,13 @@
     <link rel="stylesheet" href="../styles/twocolumn-page.css" />
 
     <style>
-      .main-content-wrapper {
+      #main-content-wrapper {
         flex-direction: row-reverse;
+      }
+      @media (max-width: 980px) {
+        #main-content-wrapper {
+          flex-direction: column;
+        }
       }
     </style>
 
@@ -46,7 +51,7 @@
         </ul>
       </nav>
     </header>
-    <div class="main-content-wrapper">
+    <div id="main-content-wrapper">
       <main class="white-box">
         <h2>Two Column #1</h2>
         <h3>A generic two column layout</h3>

@@ -6,7 +6,7 @@ body {
   line-height: 1.85rem;
   background: #3b4346 url(images/bg01.jpg);
 }
-.main-content-wrapper {
+#main-content-wrapper {
   display: flex;
   justify-content: space-between;
 
@@ -29,7 +29,7 @@ h2 {
   font-size: 2rem;
   color: #373f42;
 }
-.main-content-wrapper p {
+#main-content-wrapper p {
   margin-bottom: 36px;
 }
 h3 {
@@ -52,8 +52,41 @@ aside li a {
   color: #ed391b;
 }
 @media (max-width: 1280px) {
+  #main-content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #main-content-wrapper h2 {
+    font-size: 1.575rem;
+  }
+  #main-content-wrapper h3 {
+    font-size: 1.24rem;
+  }
 }
 @media (max-width: 980px) {
+  #main-content-wrapper {
+    flex-direction: column;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  main,
+  aside {
+    width: 100%;
+  }
+  aside section {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 736px) {
+  p {
+    font-size: 1.08rem;
+    line-height: 1.4rem;
+  }
+  #main-content-wrapper h2 {
+    font-size: 1.35rem;
+  }
+  #main-content-wrapper h3 {
+    font-size: 1.08rem;
+  }
 }
