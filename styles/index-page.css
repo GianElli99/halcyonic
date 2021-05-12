@@ -192,6 +192,8 @@ main article h3 {
   #banner {
     flex-direction: column-reverse;
     align-items: center;
+
+    margin-top: 50px;
   }
   #banner a {
     width: 100%;

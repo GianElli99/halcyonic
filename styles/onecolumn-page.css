@@ -43,6 +43,7 @@ h3 {
 }
 @media (max-width: 980px) {
   main {
+    margin-top: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
   }

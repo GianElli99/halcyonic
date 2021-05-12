@@ -78,6 +78,7 @@ nav ul {
     background: transparent;
   }
   header {
+    position: fixed;
     justify-content: flex-start;
     align-items: center;
 
